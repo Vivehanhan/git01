@@ -1,3 +1,12 @@
 testgit
 testgit2
 git diff HEAD -- test.txt
+git log 
+git log --pretty=oneline 简洁查看版本码与其对应描述 
+git reflog 查看之前的历史操作
+git reset --hard 操作码 返回到对应操作
+git reset --hard HEAD^
+git reset --hard HEAD^^^回退三个版本
+git reset --hard HEAD~100 回退100个版本
+git reset --hard {从头开始输入足以唯一区分版本的版本码}
+
